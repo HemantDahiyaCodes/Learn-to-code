@@ -187,4 +187,8 @@ a:hover {
     text-align: center;
     height: 15%;
   }
+
+  form {
+    width: 95%;
+  }
 }
