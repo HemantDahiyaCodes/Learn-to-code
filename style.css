@@ -187,6 +187,7 @@ a:hover {
   .form-container .heading {
     text-align: center;
     height: 15%;
+    width: 95%;
   }
 
   form {
