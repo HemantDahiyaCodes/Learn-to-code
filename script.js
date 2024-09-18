@@ -16,7 +16,8 @@ const claimBtn = document.querySelector(".claim");
 // Const EmailPattern
 const pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-const verifyUser = () => {
+const verifyUser = (event) => {
+  event.preventDefault();
   if (firstName.value === "" && firstName.value <= 2) {
     errorTextFirstName.textContent =
       "First name cannot be empty or less than 2 characters.";
