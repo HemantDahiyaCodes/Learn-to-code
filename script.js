@@ -33,7 +33,7 @@ const verifyUser = (event) => {
   }
 
   if(password.value === "" && password.value <= 8) {
-    errorTextPassword.textContent = "Password must be at least 8 digits and must contain at least one number"
+    errorTextPassword.textContent = "Password must contain at least 8 digits"
   }
 };
 
